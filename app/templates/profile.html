@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+<div class="item">
+  <img alt="" src="{{ url_for('static', filename='img/pan-mummy.jpg') }}" />
+  <ul>
+    <li>Elizabeth Smith [<a href="">edit</a>]</li>
+    <li>Business [<a href="">edit</a>]</li>
+    <li>708-A 5th Street Lawn, NY, USA [<a href="">edit</a>]</li>
+  </ul>
+</div>
+
+<div class="row">
+  <div class="col"><i class="fa-solid fa-phone"></i></div>
+  <div class="col"><i class="fa-solid fa-at"></i></div>
+  <div class="col"><i class="fa-solid fa-circle-info"></i></div>
+  <div class="col"><i class="fa-solid fa-folder"></i></div>
+</div>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div>
+  <div class="pitem box">
+    <nav>
+      <li><i class="fa-solid fa-image"></i></li>
+      <li><i class="fa-solid fa-film"></i></li>
+      <li><i class="fa-solid fa-video"></i></li>
+      <li><i class="fa-solid fa-gear"></i></li>
+    </nav>
+    <div class="info">
+      <figure>
+	<img alt="item image" src="{{ url_for('static', filename='img/pipebomb.jpg') }}" />
+      </figure>
+      <ul>
+	<li><b>$153</b> (tax included)</li>
+	<li>Free Delivery</li>
+	<li>100 days garantee</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="item">
+
+  </div>
+  <div class="item">
+    
+  </div>
+  <div class="item">
+
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,112 @@
+body {
+    margin: auto;
+    max-width: 600px;
+    color: #656d78;
+}
+
+header, footer{ 
+    text-align: center;
+} 
+
+.container {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #d0cece;
+    background-color: #f2f2f2;
+}
+
+nav a {
+    background-color: #656d78;
+    color: #f2f2f2;
+    padding: 2px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+form input[type=text], form input[type=password] {
+    width: 95%;
+    border: 1px solid #d0cece;    
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;    
+}
+
+form button {
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #656d78;
+}
+
+.item {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.item img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #d0cece;	
+}
+
+.pitem nav {
+    font-size: 120%;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid #d0cece;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+}
+.pitem nav li {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+
+.pitem figure {
+    border: 1px solid #656d78;
+}
+
+.pitem figure img {
+    max-width: 100px;
+    
+    max-height: 100px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    margin: 10px;
+    padding: 10px;    
+    text-align: center;
+}
+
+.col {
+    border: 1px solid #d0cece;
+    background-color: #fff;
+    padding: 15px;
+}
