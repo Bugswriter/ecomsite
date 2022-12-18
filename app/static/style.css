@@ -1,0 +1,55 @@
+body {
+    margin: auto;
+    max-width: 600px;
+    color: #656d78;
+}
+
+header, footer{ 
+    text-align: center;
+} 
+
+.container {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #d0cece;
+    background-color: #f2f2f2;
+}
+
+a {
+    background-color: #656d78;
+    color: #f2f2f2;
+    padding: 2px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+form input[type=text], form input[type=password] {
+    width: 95%;
+    border: 1px solid #d0cece;    
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;    
+}
+
+form button {
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #656d78;
+}
+
